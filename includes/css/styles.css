@@ -1,0 +1,243 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Komic
+Updated: January 10th 2015
+Notes:	 Hand coded for my Custom CSS
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+    text-align: center;
+}
+
+#features img {
+    margin: 20px 0px 20px;
+}
+
+.tabbable img.thumbnail {
+    margin: 0 20px 10px 0;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+    margin-top: 0;
+}
+
+.well .page-header h1 {
+    margin-top: 0;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-default {
+    /*background: #DC2625;*/
+    background: #AB3334;
+}
+
+.navbar-default .navbar-nav > li > a {
+    background: #AB3334;
+    color: #000;
+    box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+}
+
+/*
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #E2C1C1;
+    background: #5C3434;
+}
+*/
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #E2C1C1;
+    background: #5C3434;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #E2C1C1;
+    background: #5C3434;
+}
+
+
+.navbar-default .navbar-nav > .active > a {
+    background: #AB3334;
+    color: #000;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+    margin-top: 60px;
+}
+
+.carousel-caption {
+    font-size: 24px;
+}
+
+.carousel-caption h4 {
+    font-size: 32px;
+}
+
+#myCarousel .item{
+    height: 400px;
+}
+
+#slide1 {
+    background: url('../../images/slide1_medium.jpg') top left no-repeat;
+}
+
+#slide2 {
+    background: url('../../images/slide2_medium.jpg') top left no-repeat;
+}
+
+#slide3 {
+    background: url('../../images/slide3_medium.jpg') top left no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+    margin-top: 20px;
+    display: none;
+}
+
+.well {
+    margin: 20px 0px;
+}
+
+.thumbnails {
+ margin: 20px 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+.thumbnail .price {
+    font-size: 22px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 10px;
+}
+
+.thumbnail .price sup {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+    margin-right: 5px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+    .thumbnail .price {
+        font-size: 14px;
+    }
+
+    .thumbnail sup {
+        font-size: 10px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    .carousel-caption {
+        font-size: 16px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
+
+    #myCarousel .item{
+        height: 310px;
+    }
+
+    #slide1 {
+        background: url('../../images/slide1_medium.jpg') top left no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/slide2_medium.jpg') top left no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/slide3_medium.jpg') top left no-repeat;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #myCarousel .item{
+        height: 500px;
+    }
+
+    #slide1 {
+        background: url('../../images/slide1_large.jpg') top left no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/slide2_large.jpg') top left no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/slide3_large.jpg') top left no-repeat;
+    }
+}

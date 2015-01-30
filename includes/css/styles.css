@@ -30,6 +30,12 @@ Notes:	 Hand coded for my Custom CSS
     margin-bottom: 15px;
 }
 
+hr {
+    background-color: #000000;
+    height: 2px;
+    width: 60%;
+}
+
 footer {
     background: #333;
     color: #eee;
@@ -39,9 +45,18 @@ footer {
 /* --------------------------------------
    Typography
    -------------------------------------- */
+@font-face {
+    font-family: "Traditional";
+    src: url(../../Marcsc___.ttf) format("truetype");
+}
+
+.myfont {
+    font-family: "Traditional", Verdana, Tahoma;
+    font-size: 42px;
+}
 
 body {
-    background: #ffffff;
+    background: #fffad3;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
 }

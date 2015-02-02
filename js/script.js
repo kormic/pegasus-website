@@ -16,4 +16,7 @@ $(function(){
     $('[rel="tooltip"]').click(function(e){
         e.preventDefault();
     });
+
+    jQuery('#datetimepicker').datetimepicker({timepicker:false});
+
 });

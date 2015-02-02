@@ -126,14 +126,20 @@
 
             <div class="well">
                 <div class="page-header">
-                    <h1>Some Header Here! <small>Subheader text here for further details.</small></h1>
+                    <h1>Book a room! <small>Subheader text here for further details.</small></h1>
                 </div><!-- end of page-header-->
 
-                <p class="lead">Here goes some really good text that will keep visitor's interest. It's very important
-                so you can convice him to dig deeper into your website!</p>
+                <form style="float: left">
+                    <input id="datetimepicker" type="text" placeholder="Arrival">
+                    <input type="number" placeholder="Adults">
+                    <input type="number" placeholder="Children">
+                    <input type="number" placeholder="nights">
+                </form>
+                <!--<p class="lead">Here goes some really good text that will keep visitor's interest. It's very important
+                so you can convice him to dig deeper into your website!</p>-->
 
-                <a href="" id="myAlert" class="btn btn-lg btn-primary">A Big Button for fun</a>
-                <a href="" class="btn btn-lg btn-link">A Big Button for fun</a>
+                <a href="" id="myAlert" class="btn btn-lg btn-primary">Check availability</a>
+                <!--<a href="" class="btn btn-lg btn-link">A Big Button for fun</a>-->
             </div><!--end of well-->
         </div><!--end of col-12-->
     </div><!--end of bigCallout-->
@@ -357,8 +363,8 @@
                             <p><a href="https://www.google.gr" class="btn btn-default btn-primary btn-sm" target="_blank">
                                 Make a reservation
                             </a>
-                                <a href="https://www.google.gr" class="btn btn-link btn-sm" target="_blank">
-                                    Check out their Website
+                                <a href="https://www.facebook.com/portego.mochos" class="btn btn-link btn-sm" target="_blank">
+                                    Facebook Page
                                 </a>
                             </p>
 
@@ -441,5 +447,8 @@
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 
+    <!--datetimepicker_plugin-->
+    <link rel="stylesheet" type="text/css" href="includes/css/jquery.datetimepicker.css"/ >
+    <script src="js/jquery.datetimepicker.js"></script>
 </body>
 </html>

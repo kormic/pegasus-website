@@ -51,7 +51,62 @@
 
                     <li><a id="photo" href="#PhotoGallery">Photo Gallery</a></li>
 
-                    <li><a id="contact" href="#Contact">Contact Us</a></li>
+                    <li><a id="contact" href="#myModal" role="button" data-toggle="modal">Contact Us</a></li>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Contact Us</h4>
+                                </div><!--end of modal-header-->
+                                <div class="modal-body">
+                                    <h4 class="modal-title">Let Us Know What You Think</h4>
+
+                                    <p>Whether you are having questions or complaints, or even if you have suggestions,
+                                        please let us know!</p>
+
+                                    <h4>Telephone Numbers</h4>
+                                    <p>Pegasus Studios: +302897031647<br>
+                                       Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+306973019736</p>
+                                    <h4>Email</h4>
+                                    <p>pegasus.apts@hotmail.com</p>
+                                    <hr>
+
+                                    <p><small class="text-muted">Please fill in the form and send it to us. We 'll get back at you as soon as possible</small></p>
+
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="inputName">Name</label>
+
+                                            <div class="col-lg-10">
+                                                <input class="form-control" id="inputName" placeholder="Name" type="text">
+                                            </div><!--end of form-group Name-->
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+
+                                            <div class="col-lg-10">
+                                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                                            </div><!--end of form-group Email-->
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+
+                                            <div class="col-lg-10">
+                                                <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div><!--end of modal-body-->
+                                <div class="modal-footer">
+                                    <button class="btn btn-default btn-primary" type="button">Send</button>
+                                </div>
+                            </div><!--end of modal-content-->
+                        </div><!--end of modal-dialog-->
+                    </div><!--end of modal-->
                 </ul><!--end of nav-->
             </div><!--end of nav-collapse-->
 
@@ -124,33 +179,36 @@
                 <a href="" class="btn btn-lg btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call Us!</a>
             </div><!-- end small-well-->
 
-            <div class="well">
-                <div class="page-header">
+            <div class="well mywell">
+                <!--<div class="page-header">
                     <h1>Book a room! <small>Subheader text here for further details.</small></h1>
-                </div><!-- end of page-header-->
-
-                <form style="float: left">
-                    <input id="datetimepicker" type="text" placeholder="Arrival">
-                    <input type="number" placeholder="Adults">
-                    <input type="number" placeholder="Children">
-                    <input type="number" placeholder="nights">
+                </div>--><!-- end of page-header-->
+                <div class="col-lg-12">
+                <form>
+                    <b><span style="color:#FFF">Reservations</span></b>
+                    <input id="datetimepicker" type="text" placeholder=" Arrival">
+                    <input type="number" placeholder=" Adults">
+                    <input type="number" placeholder=" Children">
+                    <input type="number" placeholder=" nights">
+                    <a href="" id="myAlert" class="btn btn-lg btn-primary">Check availability</a>
                 </form>
+                </div>
                 <!--<p class="lead">Here goes some really good text that will keep visitor's interest. It's very important
                 so you can convice him to dig deeper into your website!</p>-->
 
-                <a href="" id="myAlert" class="btn btn-lg btn-primary">Check availability</a>
+
                 <!--<a href="" class="btn btn-lg btn-link">A Big Button for fun</a>-->
             </div><!--end of well-->
         </div><!--end of col-12-->
     </div><!--end of bigCallout-->
 
-    <div class="row" id="featuresHeading">
+    <!--<div class="row" id="featuresHeading">
         <div class="col-12">
             <h2>More Features</h2>
             <p>Pinterest mlkshk sartorial mixtape polaroid migas, banh mi brunch hashtag vegan.
             </p>
-        </div><!--end of col-12-->
-    </div><!--end of featuresHeading-->
+        </div>&lt;!&ndash;end of col-12&ndash;&gt;
+    </div>&lt;!&ndash;end of featuresHeading&ndash;&gt;
 
     <div class="row" id="features">
 
@@ -159,44 +217,44 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Markup with HTML5</h3>
-                </div><!--end panel-heading-->
+                </div>&lt;!&ndash;end panel-heading&ndash;&gt;
 
                 <img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
 
                 <p>High Life DIY cold-pressed brunch wayfarers. Distillery synth sriracha, occupy quinoa butcher taxidermy food truck letterpress seitan cred kitsch deep v.</p>
 
                 <a href="https://www.google.gr" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
-            </div><!--end panel-->
-        </div><!--end feauture-->
+            </div>&lt;!&ndash;end panel&ndash;&gt;
+        </div>&lt;!&ndash;end feauture&ndash;&gt;
 
         <div class="col-sm-4 feature">
 
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Style with CSS3</h3>
-                </div><!--end panel-heading-->
+                </div>&lt;!&ndash;end panel-heading&ndash;&gt;
                 <img src="images/badge_css3.jpg" alt="css3" class="img-circle">
 
                 <p>High Life DIY cold-pressed brunch wayfarers. Distillery synth sriracha, occupy quinoa butcher taxidermy food truck letterpress seitan cred kitsch deep v.</p>
 
                 <a href="http://www.w3schools.com/css/css3_intro.asp" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
-            </div><!--end panel-->
-        </div><!--end feauture-->
+            </div>&lt;!&ndash;end panel&ndash;&gt;
+        </div>&lt;!&ndash;end feauture&ndash;&gt;
 
         <div class="col-sm-4 feature">
 
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Framework by Bootstrap3</h3>
-                </div><!--end panel-heading-->
+                </div>&lt;!&ndash;end panel-heading&ndash;&gt;
                 <img src="images/badge_bootstrap.jpg" alt="bootstrap3" class="img-circle">
 
                 <p>High Life DIY cold-pressed brunch wayfarers. Distillery synth sriracha, occupy quinoa butcher taxidermy food truck letterpress seitan cred kitsch deep v.</p>
 
                 <a href="http://getbootstrap.com" target="_blank" class="btn btn-info btn-block">More about Bootstrap 3</a>
-            </div><!--end panel-->
-        </div><!--end feauture-->
-    </div><!--end of features-->
+            </div>&lt;!&ndash;end panel&ndash;&gt;
+        </div>&lt;!&ndash;end feauture&ndash;&gt;
+    </div>--><!--end of features-->
 
     <div class="row" id="moreInfo">
         <div class="col-sm-6">
@@ -232,13 +290,13 @@
 
                         <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window!</a>
 
-                        <div class="modal fade" id="myModal">
+                        <!--<div class="modal fade" id="myModal">
                             <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button class="close" data-dismiss="modal">&times;</button>
                                             <h4 class="modal-title">A Modal Window</h4>
-                                        </div><!--end of modal-header-->
+                                        </div>&lt;!&ndash;end of modal-header&ndash;&gt;
                                         <div class="modal-body">
                                             <h4 class="modal-title">Text in a Modal</h4>
 
@@ -261,7 +319,7 @@
 
                                                     <div class="col-lg-10">
                                                         <input class="form-control" id="inputName" placeholder="Name" type="text">
-                                                    </div><!--end of form-group Name-->
+                                                    </div>&lt;!&ndash;end of form-group Name&ndash;&gt;
 
                                                 </div>
                                                 <div class="form-group">
@@ -269,7 +327,7 @@
 
                                                     <div class="col-lg-10">
                                                         <input class="form-control" id="inputEmail" placeholder="Email" type="email">
-                                                    </div><!--end of form-group Email-->
+                                                    </div>&lt;!&ndash;end of form-group Email&ndash;&gt;
 
                                                 </div>
                                                 <div class="form-group">
@@ -282,14 +340,14 @@
                                                 </div>
 
                                             </form>
-                                        </div><!--end of modal-body-->
+                                        </div>&lt;!&ndash;end of modal-body&ndash;&gt;
                                         <div class="modal-footer">
                                             <button class="btn btn-default" data-dismiss="modal" type=""button">Close</button>
                                             <button class="btn btn-default btn-primary" type="button">Save Changes</button>
                                         </div>
-                                    </div><!--end of modal-content-->
-                            </div><!--end of modal-dialog-->
-                        </div><!--end of myModal-->
+                                    </div>&lt;!&ndash;end of modal-content&ndash;&gt;
+                            </div>&lt;!&ndash;end of modal-dialog&ndash;&gt;
+                        </div>--><!--end of myModal-->
 
                     </div><!--end of tab-pane-->
                 </div><!--end of tab-content-->

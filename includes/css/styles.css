@@ -30,6 +30,20 @@ Notes:	 Hand coded for my Custom CSS
     margin-bottom: 15px;
 }
 
+#myAlert {
+    float: right;
+    height: 30px;
+    padding: 3px 16px !important;
+}
+
+.mywell {
+    margin: 0px;
+    background: #00282B !important;
+    min-height: 65px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
 hr {
     background-color: #000000;
     height: 2px;
@@ -160,9 +174,9 @@ body {
     display: none;
 }
 
-.well {
+/*.well {
     margin: 20px 0px;
-}
+}*/
 
 .thumbnails {
  margin: 20px 0;

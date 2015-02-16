@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bee359a1-4f01-4186-8168-bd1c83d23dae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/styles.css" afterPath="$PROJECT_DIR$/includes/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bee359a1-4f01-4186-8168-bd1c83d23dae" name="Default" comment="" />
     <ignored path="pgs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="98" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.71972317" vertical-offset="1456" max-vertical-offset="9306">
+            <state line="104" column="98" selection-start="5194" selection-end="5194" vertical-scroll-proportion="3.2387543" vertical-offset="0" max-vertical-offset="9306">
               <folding />
             </state>
           </provider>
@@ -225,7 +220,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18448023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18448023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -261,6 +256,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="98" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="63" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="4986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="98198" selection-start="98363" selection-end="98363" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="126" column="35" selection-start="4569" selection-end="4569" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8316">
@@ -380,9 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/css/jquery.datetimepicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="247" selection-end="247" vertical-scroll-proportion="0.2038835" vertical-offset="0" max-vertical-offset="7632">
-          <folding />
-        </state>
+        <state line="7" column="19" selection-start="247" selection-end="247" vertical-scroll-proportion="0.2038835" vertical-offset="0" max-vertical-offset="7632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.datetimepicker.js">
@@ -413,7 +434,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="98" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.71972317" vertical-offset="1456" max-vertical-offset="9306">
+        <state line="104" column="98" selection-start="5194" selection-end="5194" vertical-scroll-proportion="3.2387543" vertical-offset="0" max-vertical-offset="9306">
           <folding />
         </state>
       </provider>

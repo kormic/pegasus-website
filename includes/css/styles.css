@@ -44,6 +44,7 @@ Notes:	 Hand coded for my Custom CSS
     border-bottom-right-radius: 4px;
 }
 
+
 hr {
     background-color: #000000;
     height: 2px;
@@ -214,7 +215,6 @@ body {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
     .thumbnail .price {
         font-size: 14px;
     }
@@ -223,6 +223,7 @@ body {
         font-size: 10px;
     }
 }
+
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
@@ -250,6 +251,46 @@ body {
     #slide3 {
         background: url('../../images/slide3_medium.jpg') top left no-repeat;
     }
+
+    #myAlert {
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .well {
+        margin-bottom: 0px;
+    }
+
+    .mywell form input {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    #myAlert {
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mywell form input {
+        width: 13%;
+    }
+}
+
+/* Small desktop */
+@media (min-width: 992px) {
+    .mywell form input {
+        width: 110px;
+    }
+
+    #myAlert {
+        width: auto;
+    }
 }
 
 /* Large desktop */
@@ -268,5 +309,17 @@ body {
 
     #slide3 {
         background: url('../../images/slide3_large.jpg') top left no-repeat;
+    }
+
+    .mywell form input {
+        width: 170px;
+    }
+
+    #myAlert {
+        float: right;
+        height: 30px;
+        padding: 3px 16px !important;
+        width: auto;
+        margin-top: auto;
     }
 }

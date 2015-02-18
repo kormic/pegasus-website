@@ -115,7 +115,8 @@ body {
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:visited {
     color: #E2C1C1;
     background: #5C3434;
 }
@@ -209,6 +210,16 @@ body {
 .thumbnail span.glyphicon {
     margin-right: 5px;
 }
+
+
+/* --------------------------------------
+   Fotorama image gallery
+   -------------------------------------- */
+
+/*.custom_fotorama {
+    margin-top: 10px;
+}*/
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */

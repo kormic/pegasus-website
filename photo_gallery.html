@@ -16,6 +16,10 @@
     <!-- Include Modernizr in the head, before any other Javascript -->
     <script src="includes/js/modernizr-2.6.2.min.js"></script>
 
+    <script>
+        blockFotoramaData = true;
+    </script>
+
     <!-- First try for the online version of jQuery-->
     <script src="http://code.jquery.com/jquery.js"></script>
 
@@ -23,12 +27,12 @@
     <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
     <!-- fotorama.css & fotorama.js. -->
-    <link  href="fotorama-4.5.2/fotorama.css" rel="stylesheet">>
+    <link  href="fotorama-4.5.2/fotorama.css" rel="stylesheet">
     <script src="fotorama-4.5.2/fotorama.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
 
     <div class="container">
 
@@ -116,8 +120,12 @@
     </nav>
 
     <div class="fotorama custom_fotorama"
-            data-allowfullscreen="native">
+            data-width="100%"
+            data-allowfullscreen="native"
+            data-loop="true"
+            data-keyboard="true">
         <img src="images/slide1_medium.jpg">
+        <img src="images/slide2_large.jpg">
         <img src="images/slide2_large.jpg">
     </div>
 

@@ -17,11 +17,4 @@ $(function(){
         e.preventDefault();
     });
 
-    jQuery('#datetimepicker').datetimepicker({timepicker:false});
-
 });
-
-//This is just for testing
-function a_click(){
-    $(".active").removeClass();
-}

@@ -17,4 +17,7 @@ $(function(){
         e.preventDefault();
     });
 
+    $('#contact').focus(function(){
+       $(this).blur();
+    });
 });

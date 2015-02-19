@@ -20,93 +20,97 @@
 
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-    <div class="container">
+<div class="container" id="main">
 
-        <div class="navbar-header">
-            <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="images/pegasus.png" alt="Pegasus Studios"></a>
-        </div><!--end of navbar-header-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-        <div class="navbar-collapse collapse navbar-responsive-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active">
-                    <a id="home" href="index.html">Home</a>
-                </li>
+        <div class="container">
 
-                <li><a id="facil" href="facilities.html">Facilities</a></li>
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/pegasus.png" alt="Pegasus Studios"></a>
+            </div><!--end of navbar-header-->
 
-                <li><a id="area" href="#Area">Area</a></li>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="home" href="index.html">Home</a>
+                    </li>
 
-                <li><a id="photo" href=photo_gallery.html>Photo Gallery</a></li>
+                    <li class="active"><a id="facil" href="facilities.html">Facilities</a></li>
 
-                <li><a id="contact" href="#myModal" role="button" data-toggle="modal">Contact Us</a></li>
-                <div class="modal fade" id="myModal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Contact Us</h4>
-                            </div><!--end of modal-header-->
-                            <div class="modal-body">
-                                <h4 class="modal-title">Let Us Know What You Think</h4>
+                    <li><a id="area" href="area.html">Area</a></li>
 
-                                <p>Whether you are having questions or complaints, or even if you have suggestions,
-                                    please let us know!</p>
+                    <li><a id="photo" href=photo_gallery.html>Photo Gallery</a></li>
 
-                                <h4>Telephone Numbers</h4>
-                                <p>Pegasus Studios: +302897031647<br>
-                                    Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+306973019736</p>
-                                <h4>Email</h4>
-                                <p>pegasus.apts@hotmail.com</p>
-                                <hr>
+                    <li><a id="contact" href="#myModal" role="button" data-toggle="modal">Contact Us</a></li>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Contact Us</h4>
+                                </div><!--end of modal-header-->
+                                <div class="modal-body">
+                                    <h4 class="modal-title">Let Us Know What You Think</h4>
 
-                                <p><small class="text-muted">Please fill in the form and send it to us. We 'll get back at you as soon as possible</small></p>
+                                    <p>Whether you are having questions or complaints, or even if you have suggestions,
+                                        please let us know!</p>
 
-                                <form class="form-horizontal">
-                                    <div class="form-group">
-                                        <label class="col-lg-2 control-label" for="inputName">Name</label>
+                                    <h4>Telephone Numbers</h4>
+                                    <p>Pegasus Studios: +302897031647<br>
+                                        Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+306973019736</p>
+                                    <h4>Email</h4>
+                                    <p>pegasus.apts@hotmail.com</p>
+                                    <hr>
 
-                                        <div class="col-lg-10">
-                                            <input class="form-control" id="inputName" placeholder="Name" type="text">
-                                        </div><!--end of form-group Name-->
+                                    <p><small class="text-muted">Please fill in the form and send it to us. We 'll get back at you as soon as possible</small></p>
 
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="inputName">Name</label>
 
-                                        <div class="col-lg-10">
-                                            <input class="form-control" id="inputEmail" placeholder="Email" type="email">
-                                        </div><!--end of form-group Email-->
+                                            <div class="col-lg-10">
+                                                <input class="form-control" id="inputName" placeholder="Name" type="text">
+                                            </div><!--end of form-group Name-->
 
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-lg-2 control-label" for="inputMessage">Message</label>
-
-                                        <div class="col-lg-10">
-                                            <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
                                         </div>
-                                    </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="inputEmail">Email</label>
 
-                                </form>
-                            </div><!--end of modal-body-->
-                            <div class="modal-footer">
-                                <button class="btn btn-default btn-primary" type="button">Send</button>
-                            </div>
-                        </div><!--end of modal-content-->
-                    </div><!--end of modal-dialog-->
-                </div><!--end of modal-->
-            </ul><!--end of nav-->
-        </div><!--end of nav-collapse-->
+                                            <div class="col-lg-10">
+                                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                                            </div><!--end of form-group Email-->
 
-    </div><!--end of container-->
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="inputMessage">Message</label>
 
-</nav><!--end of navbar-->
+                                            <div class="col-lg-10">
+                                                <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div><!--end of modal-body-->
+                                <div class="modal-footer">
+                                    <button class="btn btn-default btn-primary" type="button">Send</button>
+                                </div>
+                            </div><!--end of modal-content-->
+                        </div><!--end of modal-dialog-->
+                    </div><!--end of modal-->
+                </ul><!--end of nav-->
+            </div><!--end of nav-collapse-->
+            </div><!--end of container-->
+
+    </nav><!--end of navbar-->
+
+</div><!--end of container main-->
 
 <!-- All Javascript at the bottom of the page for faster page loading -->
 

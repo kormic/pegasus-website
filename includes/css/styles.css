@@ -105,11 +105,14 @@ body {
     box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
 }
 
-.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #E2C1C1;
+    background: #5C3434;
+}
+
+
 .navbar-default .navbar-nav > li > a:focus {
     outline: none!important;
-    /*color: #E2C1C1;*/
-    /*background: #5C3434;*/
 }
 
 

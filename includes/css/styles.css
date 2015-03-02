@@ -107,14 +107,9 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #E2C1C1;
-    background: #5C3434;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #E2C1C1;
-    background: #5C3434;
+    outline: none!important;
+    /*color: #E2C1C1;*/
+    /*background: #5C3434;*/
 }
 
 
@@ -127,10 +122,10 @@ body {
 }
 
 
-.navbar-default .navbar-nav > .active > a {
-    background: #AB3334;
-    color: #000;
-}
+/*.navbar-default .navbar-nav > .active > a {*/
+    /*background: #AB3334;*/
+    /*color: #000;*/
+/*}*/
 
 .navbar-brand {
 	padding: 0px;

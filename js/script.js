@@ -17,7 +17,17 @@ $(function(){
         e.preventDefault();
     });
 
-    $('#contact').focus(function(){
-       $(this).blur();
+    var tmp = $("li.active");
+
+    $('#contact').click(function(){
+        tmp.removeClass("active");
+        $(this).parent().addClass("active");
+//       $(this).blur();
+    });
+
+    $(".close").click(function(){
+        console.log("OK");
+       tmp.addClass("active");
+       $("#contact").parent().removeClass("active");
     });
 });

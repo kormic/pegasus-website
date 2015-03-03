@@ -74,7 +74,7 @@
 
                                     <p><small class="text-muted">Please fill in the form and send it to us. We 'll get back at you as soon as possible</small></p>
 
-                                    <form class="form-horizontal">
+                                    <form class="form-horizontal" method="post" action="submit.php">
                                         <div class="form-group">
                                             <label class="col-lg-2 control-label" for="inputName">Name</label>
 
@@ -99,11 +99,14 @@
                                             </div>
                                         </div>
 
+                                        <div class="modal-footer">
+                                            <button class="btn btn-default btn-primary" type="submit">Send</button>
+                                        </div>
                                     </form>
                                 </div><!--end of modal-body-->
-                                <div class="modal-footer">
-                                    <button class="btn btn-default btn-primary" type="button">Send</button>
-                                </div>
+                                <!--<div class="modal-footer">-->
+                                    <!--<button class="btn btn-default btn-primary" type="button">Send</button>-->
+                                <!--</div>-->
                             </div><!--end of modal-content-->
                         </div><!--end of modal-dialog-->
                     </div><!--end of modal-->

@@ -7,21 +7,18 @@ if($_POST){
 
     //check if it's an Ajax request, otherwise exit
     if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest'){
-        $output = json_encode(array( //create JSON data
-            'type'=>'error',
-            'text'=>'Sorry Request must be Ajax POST'
-        ));
+        $output = json_encode(array('type'=>'error', 'text' => 'Sorry Request must be Ajax POST'));
         die($output); //exit script outputting json data
     }
 
     //Sanitize input data using PHP filter_var().
-//    $name = filter_var($_POST["name"],FILTER_SANITIZE_STRING);
+    $name = filter_var($_POST["name"],FILTER_SANITIZE_STRING);
     $email = filter_var($_POST["email"],FILTER_SANITIZE_EMAIL);
     $msg = filter_var($_POST["msg"],FILTER_SANITIZE_STRING);
 
     //more validation
-    if(strlen($_POST["name"])<4){
-        $output = json_encode(array('type'=>'error','text'=>'Name too short or empty'));
+    if(strlen($name)<4){
+        $output = json_encode(array('type'=>'error', 'text' => 'Name too short or empty'));
         die($output);
     }
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)){ //email validation

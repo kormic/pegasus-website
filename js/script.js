@@ -26,7 +26,6 @@ $(function(){
     });
 
     $(".close").click(function(){
-        console.log("OK");
        tmp.addClass("active");
        $("#contact").parent().removeClass("active");
     });

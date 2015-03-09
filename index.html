@@ -5,14 +5,14 @@
     <!-- Website Title & Description for Search Engine purposes -->
     <title>Pegasus Apartments</title>
 
-    <meta name="description" content="">
+    <meta name="description" charset="UTF-8" content="">
 
     <!-- Mobile viewport optimized -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css"
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
 
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="includes/css/styles.css">
@@ -74,12 +74,12 @@
 
                                     <p><small class="text-muted">Please fill in the form and send it to us. We 'll get back at you as soon as possible</small></p>
 
-                                    <form class="form-horizontal" method="post" action="submit.php">
+                                    <form class="form-horizontal">
                                         <div class="form-group">
                                             <label class="col-lg-2 control-label" for="inputName">Name</label>
 
                                             <div class="col-lg-10">
-                                                <input class="form-control" id="inputName" placeholder="Name" type="text">
+                                                <input class="form-control" id="inputName" name="inputName" placeholder="Name" type="text">
                                             </div><!--end of form-group Name-->
 
                                         </div>
@@ -87,7 +87,7 @@
                                             <label class="col-lg-2 control-label" for="inputEmail">Email</label>
 
                                             <div class="col-lg-10">
-                                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                                                <input class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" type="email">
                                             </div><!--end of form-group Email-->
 
                                         </div>
@@ -95,12 +95,12 @@
                                             <label class="col-lg-2 control-label" for="inputMessage">Message</label>
 
                                             <div class="col-lg-10">
-                                                <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                                                <textarea class="form-control" id="inputMessage" name="inputMessage" placeholder="Message" rows="3"></textarea>
                                             </div>
                                         </div>
 
                                         <div class="modal-footer">
-                                            <button class="btn btn-default btn-primary" type="submit">Send</button>
+                                            <button class="btn btn-default btn-primary" type="submit" id="send_button">Send</button>
                                         </div>
                                     </form>
                                 </div><!--end of modal-body-->
@@ -270,7 +270,7 @@
                 <div class="tab-content">
                     <div class="tab-pane active" id="tab1">
                         <h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>right next to the beach!</small></h4>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d407.06807207282003!2d25.433720948988544!3d35.292447795927146!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sel!2sgr!4v1420563310460" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d407.06807207282003!2d25.433720948988544!3d35.292447795927146!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sel!2sgr!4v1420563310460" width="100%" height="200" frameborder="0" style="border:0"></iframe>-->
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus excepturi omnis quo sequi?
                             Adipisci dolore inventore iusto modi neque optio pariatur praesentium quae, tempore tenetur? Aperiam nostrum possimus sunt.</p>
                         <p>Lorem2 ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus excepturi omnis quo sequi? Adipisci dolore inventore
@@ -391,16 +391,6 @@
                 <h5>A Small Heading</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius eligendi eos harum nihil possimus quaerat quisquam quod repudiandae voluptas. Amet, aperiam beatae dolores dolorum incidunt odit quae unde ut?</p>
             </div>
-                <!doctype html>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <title>Document</title>
-                </head>
-                <body>
-
-                </body>
-                </html></p>
         </div><!--end of col-sm-6-->
     </div><!--end of info-->
 
@@ -508,11 +498,13 @@
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 
+    <script src="js/contact.js"></script>
+
     <!-- JS for choosing id datetimepicker -->
     <script src="js/dtp.js"></script>
 
     <!--datetimepicker_plugin-->
-    <link rel="stylesheet" type="text/css" href="includes/css/jquery.datetimepicker.css"/ >
+    <link rel="stylesheet" type="text/css" href="includes/css/jquery.datetimepicker.css"/>
     <script src="js/jquery.datetimepicker.js"></script>
 </body>
 </html>

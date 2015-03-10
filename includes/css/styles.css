@@ -218,6 +218,13 @@ body {
     border-color: red;
 }
 
+
+.weather {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
 /* --------------------------------------
    Fotorama image gallery
    -------------------------------------- */

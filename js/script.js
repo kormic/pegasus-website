@@ -9,7 +9,7 @@ $(function(){
         e.preventDefault();
     });
 
-    $('a.pop').popover();
+    $('a.pop , textarea').popover();
 
     $('[rel="tooltip"]').tooltip();
 
@@ -26,7 +26,13 @@ $(function(){
     });
 
     $(".close").click(function(){
-       tmp.addClass("active");
-       $("#contact").parent().removeClass("active");
+
+        tmp.addClass("active");
+        $("#contact").parent().removeClass("active");
+
+        $(".form-horizontal input , .form-horizontal textarea").each(function(){
+            $(this).css("border-color","").val('');
+        });
+
     });
 });

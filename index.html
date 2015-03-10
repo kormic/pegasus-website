@@ -95,18 +95,33 @@
                                             <label class="col-lg-2 control-label" for="inputMessage">Message</label>
 
                                             <div class="col-lg-10">
-                                                <textarea class="form-control" id="inputMessage" name="inputMessage" placeholder="Message" rows="3"></textarea>
+                                                <textarea class="form-control" id="inputMessage" name="inputMessage" placeholder="Message" rows="3"
+                                                          data-toggle="popover" data-content="Default popover"></textarea>
                                             </div>
                                         </div>
 
                                         <div class="modal-footer">
-                                            <button class="btn btn-default btn-primary" type="submit" id="send_button" data-toggle="#myModal2">Send</button>
+                                            <button class="btn btn-default btn-primary" type="submit" id="send_button">Send</button>
                                         </div>
                                     </form>
                                 </div><!--end of modal-body-->
                                 <!--<div class="modal-footer">-->
                                     <!--<button class="btn btn-default btn-primary" type="button">Send</button>-->
                                 <!--</div>-->
+                                <!--modal2-->
+                                <div class="modal fade" id="myModal2">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button class="close" data-dismiss="modal">&times;</button>
+                                            </div><!--end of modal-header-->
+                                            <div class="modal-body" id="myModal2-body">
+
+                                            </div><!--end of modal-body-->
+                                        </div>
+                                    </div>
+                                </div><!--end of myModal2-->
+                                <!--modal2-->
                             </div><!--end of modal-content-->
                         </div><!--end of modal-dialog-->
                     </div><!--end of modal-->

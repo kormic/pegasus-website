@@ -214,6 +214,9 @@ body {
     margin-right: 5px;
 }
 
+.warn {
+    border-color: red;
+}
 
 /* --------------------------------------
    Fotorama image gallery

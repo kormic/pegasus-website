@@ -17,7 +17,7 @@ $(function(){
         e.preventDefault();
     });
 
-    var tmp = $("li.active");
+    var tmp = $("li.current");
 
     $('#contact').click(function(){
         tmp.removeClass("active");

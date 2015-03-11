@@ -41,8 +41,7 @@ if($_POST){
     'Reply-To: '.$email.'' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-
-    $send_mail = mail($to_email,$subject,$msg,$headers);
+        $send_mail = mail($to_email,$subject,$msg,$headers);
 
     if(!$send_mail)
     {

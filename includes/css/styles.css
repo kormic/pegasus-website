@@ -264,6 +264,9 @@ body {
         height: 310px;
     }
 
+    #portegoCarousel .item {
+        height: 310px;
+    }
     #slide1 {
         background: url('../../images/slide1_medium.jpg') top left no-repeat;
     }
@@ -323,6 +326,10 @@ body {
         height: 500px;
     }
 
+    #portegoCarousel .item {
+        height: 400px;
+    }
+
     #slide1 {
         background: url('../../images/slide1_large.jpg') top left no-repeat;
     }
@@ -333,6 +340,18 @@ body {
 
     #slide3 {
         background: url('../../images/slide3_large.jpg') top left no-repeat;
+    }
+
+    #portego1 {
+        background: url('../../images/portego1_large.jpg') top left no-repeat;
+    }
+
+    #portego2 {
+        background: url('../../images/portego2_large.jpg') top left no-repeat;
+    }
+
+    #portego3 {
+        background: url('../../images/portego3_large.jpg') top left no-repeat;
     }
 
     .mywell form input {

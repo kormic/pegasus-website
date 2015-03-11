@@ -41,7 +41,7 @@
 
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
+                    <li class="active current">
                         <a id="home" href="index.html">Home</a>
                     </li>
 
@@ -56,7 +56,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button class="close" data-dismiss="modal">&times;</button>
+                                    <button class="close" id="closeContact" data-dismiss="modal">&times;</button>
                                     <h4 class="modal-title">Contact Us</h4>
                                 </div><!--end of modal-header-->
                                 <div class="modal-body">
@@ -95,8 +95,7 @@
                                             <label class="col-lg-2 control-label" for="inputMessage">Message</label>
 
                                             <div class="col-lg-10">
-                                                <textarea class="form-control" id="inputMessage" name="inputMessage" placeholder="Message" rows="3"
-                                                          data-toggle="popover" data-content="Default popover"></textarea>
+                                                <textarea class="form-control" id="inputMessage" name="inputMessage" placeholder="Message" rows="3"></textarea>
                                             </div>
                                         </div>
 
@@ -276,7 +275,7 @@
 
     <div class="row" id="moreInfo">
         <div class="col-sm-6">
-            <h3>Neat Tabbable Content</h3>
+            <h3>Weather and Location!</h3>
             <div class="tabbable">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#tab1" data-toggle="tab">Find Us</a> </li>
@@ -411,51 +410,97 @@
     <div class="row" id="moreCourses">
         <div class="col-lg-12">
             <h3 class="myfont">Traditional Corner</h3>
-            <div class="thumbnails row">
-                <div class="col-lg-6">
-                    <div class="thumbnail">
-                        <img src="images/portego_resized.jpg" alt="Portego">
 
-                        <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>100</div>
+            <div class="col-lg-6">
+                <div class="thumbnail row">
+                    <div class="carousel slide" id="portegoCarousel" data-ride="carousel">
 
-                        <div class="caption">
-                            <h3>Portego Restaurant</h3>
+                        <!--Indicators-->
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#portegoCarousel"></li>
+                            <li data-slide-to="1" data-target="#portegoCarousel"></li>
+                            <li data-slide-to="2" data-target="#portegoCarousel"></li>
+                        </ol>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, dicta dolor esse impedit incidunt molestiae nisi nulla tempora! Commodi consequuntur dolor et in labore molestias natus quaerat repellendus saepe soluta.</p>
+                        <!--Wrapper for the slide-->
+                        <div class="carousel-inner" role="listbox">
 
-                            <p><a href="https://www.google.gr" class="btn btn-default btn-primary btn-sm" target="_blank">
-                                Make a reservation
-                            </a>
-                                <a href="https://www.facebook.com/portego.mochos" class="btn btn-link btn-sm" target="_blank">
-                                    Facebook Page
-                                </a>
-                            </p>
+                            <div class="item active" id="portego1">
 
-                        </div><!--end of caption-->
-                    </div><!--end thumbnail-->
-                </div><!--end of col-6 1-->
-                <div class="col-lg-6">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/554x321" alt="placeholder">
+                                <!--end of carousel-caption-->
 
-                        <div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>300</div>
+                            </div><!--end of item-->
 
-                        <div class="caption">
-                            <h3>Something Else</h3>
+                            <div class="item" id="portego2">
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, dicta dolor esse impedit incidunt molestiae nisi nulla tempora! Commodi consequuntur dolor et in labore molestias natus quaerat repellendus saepe soluta.</p>
-                            <p><a href="https://www.google.gr" class="btn btn-default btn-primary btn-sm" target="_blank">
-                                Check it out
-                            </a>
-                                <a href="https://www.google.gr" class="btn btn-link btn-sm" target="_blank">
-                                    Check it out
-                                </a>
-                            </p>
+                               <!--end of carousel-caption-->
 
-                        </div><!--end of caption-->
-                    </div><!--end thumbnail-->
-                </div><!--end of col-6 2-->
-            </div><!--end row-->
+                            </div><!--end of item-->
+
+                            <div class="item" id="portego3">
+
+                                <!--end of carousel-caption-->
+
+                            </div><!--end of item-->
+
+                        </div><!--end of carousel-inner-->
+                    </div><!--end of carousel-->
+                    <div class="caption">
+                        <h3>Portego Restaurant</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, dicta dolor esse impedit incidunt molestiae nisi nulla tempora! Commodi consequuntur dolor et in labore molestias natus quaerat repellendus saepe soluta.</p>
+
+                        <p><a href="https://www.google.gr" class="btn btn-default btn-primary btn-sm" target="_blank">Make a reservation</a>
+                        <a href="https://www.facebook.com/portego.mochos" class="btn btn-link btn-sm" target="_blank">Facebook Page</a>
+                        </p>
+                    </div><!--end of caption-->
+                </div><!--end of thumbnail row-->
+            </div><!--end of col-lg-6-->
+            <!--<div class="thumbnails row">-->
+                <!--<div class="col-lg-6">-->
+                    <!--<div class="thumbnail">-->
+                        <!--<img src="images/portego_resized.jpg" alt="Portego">-->
+
+                        <!--&lt;!&ndash;<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>100</div>&ndash;&gt;-->
+
+                        <!--<div class="caption">-->
+                            <!--<h3>Portego Restaurant</h3>-->
+
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, dicta dolor esse impedit incidunt molestiae nisi nulla tempora! Commodi consequuntur dolor et in labore molestias natus quaerat repellendus saepe soluta.</p>-->
+
+                            <!--<p><a href="https://www.google.gr" class="btn btn-default btn-primary btn-sm" target="_blank">-->
+                                <!--Make a reservation-->
+                            <!--</a>-->
+                                <!--<a href="https://www.facebook.com/portego.mochos" class="btn btn-link btn-sm" target="_blank">-->
+                                    <!--Facebook Page-->
+                                <!--</a>-->
+                            <!--</p>-->
+
+                        <!--</div>&lt;!&ndash;end of caption&ndash;&gt;-->
+                    <!--</div>&lt;!&ndash;end thumbnail&ndash;&gt;-->
+                <!--</div>&lt;!&ndash;end of col-6 1&ndash;&gt;-->
+                <!--<div class="col-lg-6">-->
+                    <!--<div class="thumbnail">-->
+                        <!--<img src="http://placehold.it/554x321" alt="placeholder">-->
+
+                        <!--&lt;!&ndash;<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>300</div>&ndash;&gt;-->
+
+                        <!--<div class="caption">-->
+                            <!--<h3>Something Else</h3>-->
+
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, dicta dolor esse impedit incidunt molestiae nisi nulla tempora! Commodi consequuntur dolor et in labore molestias natus quaerat repellendus saepe soluta.</p>-->
+                            <!--<p><a href="https://www.google.gr" class="btn btn-default btn-primary btn-sm" target="_blank">-->
+                                <!--Check it out-->
+                            <!--</a>-->
+                                <!--<a href="https://www.google.gr" class="btn btn-link btn-sm" target="_blank">-->
+                                    <!--Check it out-->
+                                <!--</a>-->
+                            <!--</p>-->
+
+                        <!--</div>&lt;!&ndash;end of caption&ndash;&gt;-->
+                    <!--</div>&lt;!&ndash;end thumbnail&ndash;&gt;-->
+                <!--</div>&lt;!&ndash;end of col-6 2&ndash;&gt;-->
+            <!--</div>&lt;!&ndash;end row&ndash;&gt;-->
         </div><!--end col-12-->
     </div><!--end of moreCourses-->
 

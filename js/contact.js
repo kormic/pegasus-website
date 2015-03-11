@@ -2,10 +2,11 @@ $(document).ready(function(){
 
 
     $("#send_button").click(function(e){
+
         e.preventDefault();
          var send = $(this);
-        send.attr("disabled","disabled");
-        var proceed = true;
+            send.attr("disabled","disabled");
+            var proceed = true;
 
 
         $(".form-horizontal input , .form-horizontal textarea").each(function(){

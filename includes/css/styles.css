@@ -59,10 +59,45 @@ footer {
     padding: 20px;
 }
 
+footer a {
+    color: inherit;
+}
+
 .gallery {
     text-align: center;
     text-align: -moz-center;
     text-align: -webkit-center;
+}
+
+#image_gallery {
+    margin-right: -15px;
+    transition: all .2s ease-in-out;
+}
+
+#image_gallery a{
+    float: left;
+    width: 25%;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    outline: 0;
+}
+
+#image_gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+#image_gallery:hover img {
+    opacity: 6;
+    transform: scale(.92);
+
+}
+
+#image_gallery img:hover {
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 7px rgba(0, 0, 0, .5);
 }
 
 /* --------------------------------------
@@ -235,17 +270,24 @@ body {
 
 #listImage img {
     border: 1px solid #000000;
+    border-style: solid;
     padding: 2px;
     background-color: #CEDEF7;
+    width: 250px;
+    height: 150px;
+    margin-right:10px;
+    margin-left:10px;
+    float: right;
+    margin-bottom:10px;
 }
 
 /* --------------------------------------
    Fotorama image gallery
    -------------------------------------- */
 
-/*.custom_fotorama {
-    margin-top: 10px;
-}*/
+.custom_fotorama {
+    margin-bottom: 15px;
+}
 
 /* --------------------------------------
    Media Queries

@@ -108,6 +108,11 @@ footer a {
     src: url(../../Marcsc___.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Welcome";
+    src: url(../../Modeschrift.ttf) format("truetype");
+}
+
 .myfont {
     font-family: "Traditional", Verdana, Tahoma;
     font-size: 42px;
@@ -282,6 +287,23 @@ body {
 }
 
 /* --------------------------------------
+   TripAdvisor
+   -------------------------------------- */
+
+.widSSP {
+    width: 100%!important;
+    margin-top: 27px!important;
+}
+
+/* --------------------------------------
+   TravelRepublic
+   -------------------------------------- */
+
+.travelrepublic img {
+    width: 100%;
+}
+
+/* --------------------------------------
    Fotorama image gallery
    -------------------------------------- */
 
@@ -301,6 +323,22 @@ body {
 
     .thumbnail sup {
         font-size: 10px;
+    }
+
+    .myfont2 {
+        font-family: "Welcome", Verdana, Tahoma;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 480px) {
+    .myfont2 {
+        font-family: "Welcome", Verdana, Tahoma;
+        font-size: 50px;
+        text-align: center;
     }
 }
 
@@ -349,6 +387,7 @@ body {
         width: 100%;
         margin-top: 5px;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -357,11 +396,18 @@ body {
         margin-top: 10px;
         width: 100%;
     }
+
 }
 
 @media (min-width: 768px) {
     .mywell form input {
         width: 13%;
+    }
+
+    .myfont2 {
+        font-family: "Welcome", Verdana, Tahoma;
+        font-size: 60px;
+        text-align: center;
     }
 }
 
@@ -374,6 +420,7 @@ body {
     #myAlert {
         width: auto;
     }
+
 }
 
 /* Large desktop */
@@ -386,6 +433,9 @@ body {
         height: 400px;
     }
 
+    #something_else {
+        height: 400px;
+    }
     #slide1 {
         background: url('../../images/slide1_large.jpg') top left no-repeat;
     }
@@ -410,6 +460,10 @@ body {
         background: url('../../images/portego3_large.jpg') top left no-repeat;
     }
 
+    #something_else {
+        background: url(http://placehold.it/600x400) top left no-repeat;
+    }
+
     .mywell form input {
         width: 170px;
     }
@@ -420,5 +474,11 @@ body {
         padding: 3px 16px !important;
         width: auto;
         margin-top: auto;
+    }
+
+    .myfont2 {
+        font-family: "Welcome", Verdana, Tahoma;
+        font-size: 90px;
+        text-align: center;
     }
 }

@@ -13,6 +13,12 @@ Notes:	 Hand coded for my Custom CSS
 /* --------------------------------------
    Layout
    -------------------------------------- */
+/****** Sticky Footer ******/
+html {
+    min-height: 100%;
+    position: relative;
+}
+/****** Sticky Footer ******/
 
 #features {
     text-align: center;
@@ -53,7 +59,6 @@ hr {
 
 footer {
     background: #5B7AAA;
-    /*background: #333;*/
     color: #eee;
     font-size: 11px;
     padding: 20px;
@@ -122,7 +127,6 @@ footer a {
 
 body {
     background: #FFF;
-    /*background: #fffad3;*/
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
 }
@@ -449,6 +453,20 @@ body {
 
 /* Large desktop */
 @media (min-width: 1200px) {
+
+    /****** Sticky Footer ******/
+    body {
+        margin-bottom: 130px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 130px;
+    }
+    /****** Sticky Footer ******/
+
     #myCarousel .item{
         height: 500px;
     }

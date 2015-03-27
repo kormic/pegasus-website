@@ -17,19 +17,12 @@
     <!-- Include Modernizr in the head, before any other Javascript -->
     <script src="js/modernizr.js"></script>
 
-    <script>
-        blockFotoramaData = true;
-    </script>
-
     <!-- First try for the online version of jQuery-->
     <script src="http://code.jquery.com/jquery.js"></script>
 
     <!-- If no online access, fallback to our hardcoded version of jQuery -->
     <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
-    <!-- fotorama.css & fotorama.js. -->
-    <link  href="fotorama-4.5.2/fotorama.css" rel="stylesheet">
-    <script src="fotorama-4.5.2/fotorama.js"></script>
 </head>
 <body>
 
@@ -120,8 +113,10 @@
 
     </div><!--end of container-->
     </nav>
+
 <div class="container">
-    <h1>Photo Collection</h1>
+    <h1 class="header">Photo Collection</h1>
+    <hr>
     <h3>Take a closer look through our image collection...</h3>
 
     <div id="image_gallery" class="row col-sm-8">
@@ -150,19 +145,6 @@
         <a href="http://placehold.it/1920x1080" data-lightbox="image_gallery"><img src="http://placehold.it/140x100" alt=""></a>
         <a href="http://placehold.it/1920x1080" data-lightbox="image_gallery"><img src="http://placehold.it/140x100" alt=""></a>
     </div>
-
-    <!--<div class="gallery">-->
-        <!--<div class="fotorama custom_fotorama"-->
-             <!--data-width="60%"-->
-             <!--data-allowfullscreen="native"-->
-             <!--data-loop="true"-->
-             <!--data-nav="thumbs"-->
-             <!--data-keyboard="true">-->
-            <!--<img src="images/slide1_medium.jpg">-->
-            <!--<img src="images/slide2_large.jpg">-->
-            <!--<img src="images/slide2_large.jpg">-->
-        <!--</div>-->
-    <!--</div>-->
 </div>
 
 

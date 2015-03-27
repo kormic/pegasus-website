@@ -13,6 +13,12 @@ Notes:	 Hand coded for my Custom CSS
 /* --------------------------------------
    Layout
    -------------------------------------- */
+/****** Sticky Footer ******/
+html {
+    min-height: 100%;
+    position: relative;
+}
+/****** Sticky Footer ******/
 
 #features {
     text-align: center;
@@ -53,7 +59,6 @@ hr {
 
 footer {
     background: #5B7AAA;
-    /*background: #333;*/
     color: #eee;
     font-size: 11px;
     padding: 20px;
@@ -70,7 +75,9 @@ footer a {
 }
 
 #image_gallery {
-    margin-right: -15px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
     transition: all .2s ease-in-out;
 }
 
@@ -120,9 +127,30 @@ footer a {
 
 body {
     background: #FFF;
-    /*background: #fffad3;*/
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
+}
+
+#welcomeText {
+    /*font-family: "Traditional", Verdana, Tahoma;*/
+    font-style: italic;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.header {
+    font-family: "Welcome", Verdana, Tahoma;
+    font-size: 90px;
+    text-align: center;
+}
+
+#facilitiesText {
+    /*font-family: "Traditional", Verdana, Tahoma;*/
+    font-size: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
 }
 
 .well .page-header {
@@ -425,6 +453,20 @@ body {
 
 /* Large desktop */
 @media (min-width: 1200px) {
+
+    /****** Sticky Footer ******/
+    body {
+        margin-bottom: 130px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 130px;
+    }
+    /****** Sticky Footer ******/
+
     #myCarousel .item{
         height: 500px;
     }

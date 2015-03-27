@@ -14,16 +14,23 @@
 
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="includes/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
     <!-- Include Modernizr in the head, before any other Javascript -->
     <script src="js/modernizr.js"></script>
 
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
 </head>
 <body>
 
-<div class="container" id="main">
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
 
         <div class="container">
 
@@ -108,24 +115,86 @@
                 </ul><!--end of nav-->
             </div><!--end of nav-collapse-->
             </div><!--end of container-->
-
     </nav><!--end of navbar-->
 
-</div><!--end of container main-->
+    <div class="container">
+        <h3 class="header" id="facilitiesHeader">Facilities of Pegasus Studios</h3>
+        <hr>
+        <div class="col-sm-12">
+            <div class="col-sm-6">
+                <p id="facilitiesText">
+
+                    The Pegasus apartment studio rooms are all self-contained for all your needs. As well as the obligatory bed and wardrobe,
+                    each room has cooking facilities, a fridge and a bar. The bathrooms are all equipped with a bath and a shower and
+                    each room has its own private balcony.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <a href="http://placehold.it/1920x1080" data-lightbox="facilities1" data-title="caption" style="float:right;padding-right:20px;padding-left:20px; margin-bottom: 10px;"><img src="http://placehold.it/220x180" alt=""></a>
+                <a href="http://placehold.it/1920x1080" data-lightbox="facilities1" style="float:right;padding-right:20px;padding-left:20px; margin-bottom: 10px;"><img src="http://placehold.it/220x180" alt=""></a>
+            </div>
+            <div class="col-sm-6">
+                <a href="http://placehold.it/1920x1080" data-lightbox="facilities2" data-title="First Photo" style="float:left;padding-left:20px; padding-right:20px; margin-bottom: 10px;"><img src="http://placehold.it/220x180" alt=""></a>
+                <a href="http://placehold.it/1920x1080" data-lightbox="facilities2" style="float:left;padding-left:20px; padding-right:20px; margin-bottom: 10px;"><img src="http://placehold.it/220x180" alt=""></a>
+            </div>
+            <div class="col-sm-6">
+                <p id="facilitiesText">
+
+                    If you don't fancy cooking breakfast in a morning, the pegasus bar downstairs offers
+                    an excellent cooked english breakfast or continental along with omelettes, toasties and baguettes.
+                    If you fancy a chilled relaxed night time drink, the bar has two big screen tv's to show sports action as it happens and
+                    there's a quiz and a game of bingo every night to liven things up!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+    </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h6>Copyright &copy; 2015 Komic</h6>
+            </div><!--end col-sm-2-->
+            <div class="col-sm-4">
+                <h6>About Us</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores excepturi fugit illum, mollitia quidem sunt temporibus vero. Aliquam enim illum laudantium nihil nulla officiis quia reprehenderit? Illum numquam placeat porro?
+                </p>
+            </div><!--end col-sm-4-->
+            <div class="col-sm-2">
+                <h6>Navigation</h6>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="photo_gallery.html">Photo Gallery</a></li>
+                    <li><a id="contact" href="#myModal" role="button" data-toggle="modal" data-backdrop="static">Contact Us</a></li>
+                </ul>
+            </div><!--end col-sm-2-->
+            <div class="col-sm-2">
+                <h6>Follow Us</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Google Plus</a></li>
+                </ul>
+            </div><!--end col-sm-2-->
+            <div class="col-sm-2">
+                <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Komic</h6>
+            </div><!--end col-sm-2-->
+        </div><!--end row-->
+    </div><!--end of container-->
+</footer><!--end footer-->
 
 <!-- All Javascript at the bottom of the page for faster page loading -->
 
-<!-- First try for the online version of jQuery-->
-<script src="http://code.jquery.com/jquery.js"></script>
-
-<!-- If no online access, fallback to our hardcoded version of jQuery -->
-<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
 <!-- Bootstrap JS -->
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Custom JS -->
 <script src="js/script.js"></script>
+<script src="js/lightbox.js"></script>
 
 <script src="js/contact.js"></script>
 

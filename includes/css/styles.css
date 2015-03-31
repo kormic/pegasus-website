@@ -139,7 +139,8 @@ body {
 }
 
 .header {
-    font-family: "Welcome", Verdana, Tahoma;
+    /*font-family: "Welcome", Verdana, Tahoma;*/
+    font-family: "Traditional", Verdana, Tahoma;
     font-size: 90px;
     text-align: center;
 }
@@ -306,8 +307,8 @@ body {
     border-style: solid;
     padding: 2px;
     background-color: #CEDEF7;
-    width: 250px;
-    height: 150px;
+    width: 40%;
+    max-height: 150px;
     margin-right:10px;
     margin-left:10px;
     float: right;
@@ -363,6 +364,7 @@ body {
 
 
 @media (min-width: 480px) {
+
     .myfont2 {
         font-family: "Welcome", Verdana, Tahoma;
         font-size: 50px;
@@ -437,6 +439,23 @@ body {
         font-size: 60px;
         text-align: center;
     }
+
+    #portego1 {
+        background: url('../../images/portego1_large.jpg') top left no-repeat;
+    }
+
+    #portego2 {
+        background: url('../../images/portego2_large.jpg') top left no-repeat;
+    }
+
+    #portego3 {
+        background: url('../../images/portego3_large.jpg') top left no-repeat;
+    }
+
+    #something_else {
+        background: url(http://placehold.it/600x389) top left no-repeat;
+    }
+
 }
 
 /* Small desktop */
@@ -490,21 +509,25 @@ body {
         background: url('../../images/slide3_large.jpg') top left no-repeat;
     }
 
-    #portego1 {
-        background: url('../../images/portego1_large.jpg') top left no-repeat;
+    #mochosSquare{
+        background: url('../../images/mochos_square_250.jpg') top left no-repeat;
     }
 
-    #portego2 {
-        background: url('../../images/portego2_large.jpg') top left no-repeat;
-    }
+    /*#portego1 {*/
+        /*background: url('../../images/portego1_large.jpg') top left no-repeat;*/
+    /*}*/
 
-    #portego3 {
-        background: url('../../images/portego3_large.jpg') top left no-repeat;
-    }
+    /*#portego2 {*/
+        /*background: url('../../images/portego2_large.jpg') top left no-repeat;*/
+    /*}*/
 
-    #something_else {
-        background: url(http://placehold.it/600x400) top left no-repeat;
-    }
+    /*#portego3 {*/
+        /*background: url('../../images/portego3_large.jpg') top left no-repeat;*/
+    /*}*/
+
+    /*#something_else {*/
+        /*background: url(http://placehold.it/600x389) top left no-repeat;*/
+    /*}*/
 
     .mywell form input {
         width: 170px;

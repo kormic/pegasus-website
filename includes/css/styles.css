@@ -139,12 +139,9 @@ body {
 }
 
 .header {
-    /*font-family: "Welcome", Verdana, Tahoma;*/
     font-family: "Traditional", Verdana, Tahoma;
-    font-size: 90px;
     text-align: center;
 }
-
 #facilitiesText {
     /*font-family: "Traditional", Verdana, Tahoma;*/
     font-size: 16px;
@@ -364,6 +361,11 @@ body {
         font-size: 50px;
         text-align: center;
     }
+
+    .header {
+        font-size: 55px;
+    }
+
 }
 
 
@@ -412,6 +414,9 @@ body {
         margin-top: 5px;
     }
 
+    .header {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -488,6 +493,10 @@ body {
         height: 130px;
     }
     /****** Sticky Footer ******/
+
+    .header {
+        font-size: 70px;
+    }
 
     .navbar-brand {
         padding: 0px;

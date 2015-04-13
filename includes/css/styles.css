@@ -207,13 +207,7 @@ body {
     /*color: #000;*/
 /*}*/
 
-.navbar-brand {
-	padding: 0px;
-}
 
-.navbar-brand img {
-	height: 50px;
-}
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -426,7 +420,6 @@ body {
         margin-top: 10px;
         width: 100%;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -470,6 +463,16 @@ body {
 
 }
 
+@media (max-width: 1199px) {
+    .navbar-brand {
+        padding: 3px;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+}
+
 /* Large desktop */
 @media (min-width: 1200px) {
 
@@ -485,6 +488,15 @@ body {
         height: 130px;
     }
     /****** Sticky Footer ******/
+
+    .navbar-brand {
+        padding: 0px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
 
     #myCarousel .item{
         height: 500px;

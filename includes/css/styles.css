@@ -226,15 +226,15 @@ body {
 }
 
 #slide1 {
-    background: url('../../images/slide1_medium.jpg') top left no-repeat;
+    background: url('../../images/slide1_large.jpg') top left no-repeat;
 }
 
 #slide2 {
-    background: url('../../images/slide2_medium.jpg') top left no-repeat;
+    background: url('../../images/slide2_large.jpg') top left no-repeat;
 }
 
 #slide3 {
-    background: url('../../images/slide3_medium.jpg') top left no-repeat;
+    background: url('../../images/slide3_large.jpg') top left no-repeat;
 }
 
 
@@ -337,6 +337,43 @@ body {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+
+    .carousel-indicators {
+        bottom: 0px!important;
+    }
+
+    .carousel-caption {
+        bottom: 0px!important;
+    }
+
+    .carousel-caption {
+        font-size: 12px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 14px;
+    }
+
+    #myCarousel .item{
+        height: 180px;
+    }
+
+    #portegoCarousel .item {
+        height: 180px;
+    }
+
+    #slide1 {
+        background: url('../../images/slide1_xs.jpg') center;
+    }
+
+    #slide2 {
+        background: url('../../images/slide2_xs.jpg') center;
+    }
+
+    #slide3 {
+        background: url('../../images/slide3_xs.jpg') center;
+    }
+
     .thumbnail .price {
         font-size: 14px;
     }
@@ -366,12 +403,6 @@ body {
         font-size: 55px;
     }
 
-}
-
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-
     .carousel-caption {
         font-size: 16px;
     }
@@ -381,23 +412,29 @@ body {
     }
 
     #myCarousel .item{
-        height: 310px;
+        height: 330px;
     }
 
     #portegoCarousel .item {
-        height: 310px;
+        height: 330px;
     }
+
     #slide1 {
-        background: url('../../images/slide1_medium.jpg') top left no-repeat;
+        background: url('../../images/slide1_sm.jpg') center no-repeat;
     }
 
     #slide2 {
-        background: url('../../images/slide2_medium.jpg') top left no-repeat;
+        background: url('../../images/slide2_sm.jpg') center no-repeat;
     }
 
     #slide3 {
-        background: url('../../images/slide3_medium.jpg') top left no-repeat;
+        background: url('../../images/slide3_sm.jpg') center no-repeat;
     }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
 
     #myAlert {
         float: none;
@@ -438,6 +475,30 @@ body {
         text-align: center;
     }
 
+    #something_else {
+        height: 400px;
+    }
+
+    #myCarousel .item{
+        height: 360px;
+    }
+
+    #portegoCarousel .item {
+        height: 360px;
+    }
+
+    #slide1 {
+        background: url('../../images/slide1_medium.jpg') center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/slide2_medium.jpg') top left no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/slide3_medium.jpg') top left no-repeat;
+    }
+
     #portego1 {
         background: url('../../images/portego1_large.jpg') top left no-repeat;
     }
@@ -457,16 +518,16 @@ body {
 }
 
 /* Small desktop */
-@media (min-width: 992px) {
-    .mywell form input {
-        width: 110px;
-    }
+/*@media (min-width: 992px) {*/
+    /*.mywell form input {*/
+        /*width: 110px;*/
+    /*}*/
 
-    #myAlert {
-        width: auto;
-    }
+    /*#myAlert {*/
+        /*width: auto;*/
+    /*}*/
 
-}
+/*}*/
 
 @media (max-width: 1199px) {
     .navbar-brand {
@@ -518,6 +579,7 @@ body {
     #something_else {
         height: 400px;
     }
+
     #slide1 {
         background: url('../../images/slide1_large.jpg') top left no-repeat;
     }

@@ -8,8 +8,9 @@ Updated: January 10th 2015
 Notes:	 Hand coded for my Custom CSS
 
 */
-
-
+.maps iframe{
+    pointer-events: none;
+}
 /* --------------------------------------
    Layout
    -------------------------------------- */
@@ -363,11 +364,11 @@ body {
     }
 
     #slide1 {
-        background: url('../../images/slide1_xs.jpg') center;
+        background: url('../../images/slide1_xs_rock.jpg') center;
     }
 
     #slide2 {
-        background: url('../../images/slide2_xs.jpg') center;
+        background: url('../../images/slide2_xs_rocks.jpg') center;
     }
 
     #slide3 {
@@ -420,11 +421,11 @@ body {
     }
 
     #slide1 {
-        background: url('../../images/slide1_sm.jpg') center no-repeat;
+        background: url('../../images/slide1_sm_rock.jpg') center no-repeat;
     }
 
     #slide2 {
-        background: url('../../images/slide2_sm.jpg') center no-repeat;
+        background: url('../../images/slide2_sm_rocks.jpg') center no-repeat;
     }
 
     #slide3 {
@@ -488,11 +489,11 @@ body {
     }
 
     #slide1 {
-        background: url('../../images/slide1_medium.jpg') center no-repeat;
+        background: url('../../images/slide1_medium_rock.jpg') center no-repeat;
     }
 
     #slide2 {
-        background: url('../../images/slide2_medium.jpg') top left no-repeat;
+        background: url('../../images/slide2_medium_rocks.jpg') top left no-repeat;
     }
 
     #slide3 {
@@ -581,11 +582,11 @@ body {
     }
 
     #slide1 {
-        background: url('../../images/slide1_large.jpg') top left no-repeat;
+        background: url('../../images/slide1_large_rock.jpg') top left no-repeat;
     }
 
     #slide2 {
-        background: url('../../images/slide2_large.jpg') top left no-repeat;
+        background: url('../../images/slide2_large_rocks.jpg') top left no-repeat;
     }
 
     #slide3 {

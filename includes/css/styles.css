@@ -463,6 +463,23 @@ body {
         margin-top: 10px;
         width: 100%;
     }
+
+    #something_else {
+        height: 200px;
+        background: url(http://placehold.it/700x200) center no-repeat;
+    }
+
+    #portego1 {
+        background: url('../../images/portego1_large.jpg') center no-repeat;
+    }
+
+    #portego2 {
+        background: url('../../images/portego2_large.jpg') center no-repeat;
+    }
+
+    #portego3 {
+        background: url('../../images/portego3_large.jpg') center no-repeat;
+    }
 }
 
 @media (min-width: 768px) {
@@ -474,10 +491,6 @@ body {
         font-family: "Welcome", Verdana, Tahoma;
         font-size: 60px;
         text-align: center;
-    }
-
-    #something_else {
-        height: 400px;
     }
 
     #myCarousel .item{
@@ -501,19 +514,20 @@ body {
     }
 
     #portego1 {
-        background: url('../../images/portego1_large.jpg') top left no-repeat;
+        background: url('../../images/portego1_large.jpg') center no-repeat;
     }
 
     #portego2 {
-        background: url('../../images/portego2_large.jpg') top left no-repeat;
+        background: url('../../images/portego2_large.jpg') center no-repeat;
     }
 
     #portego3 {
-        background: url('../../images/portego3_large.jpg') top left no-repeat;
+        background: url('../../images/portego3_large.jpg') center no-repeat;
     }
 
     #something_else {
-        background: url(http://placehold.it/600x389) top left no-repeat;
+        height: 400px;
+        background: url(http://placehold.it/600x400) top left no-repeat;
     }
 
 }
